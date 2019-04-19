@@ -21,7 +21,8 @@
     <div class="section" id="section0">
       <div class="dlbtn">
           <div class="dl1"><a href="#" target="_blank"></a></div>
-          <div class="dl2"><a href="#" target="_blank"></a></div>
+          <div class="dl2"><a href="https://play.google.com/store/apps/details?id=com.oasisgames.xhtw.gp&hl=zh-TW&ah=JuPQFW_x5iexqpF9tctTBNzlE6s" target="_blank"></a></div>
+          <div class="dl3"><a href="http://smarturl.it/hzfdr1" target="_blank"></a></div>
       </div>
     </div>
     <div class="section" id="section1">

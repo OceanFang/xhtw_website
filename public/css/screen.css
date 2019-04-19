@@ -54,7 +54,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-.logo a, #nav li a, .floatr .btn-float1 a, .floatr .btn-float2 a, .floatr .btn-float3 a, .floatr .btn-float4 a, .dl1 a, .dl2 a, .btn-news1 a, .btn-news2 a, .btn-news3 a, .btn-news4 a, .fbbtn a {
+.logo a, #nav li a, .floatr .btn-float1 a, .floatr .btn-float2 a, .floatr .btn-float3 a, .floatr .btn-float4 a, .dl1 a, .dl2 a, .dl3 a, .btn-news1 a, .btn-news2 a, .btn-news3 a, .btn-news4 a, .fbbtn a {
   display: block;
   width: 100%;
   height: 100%;
@@ -318,7 +318,7 @@ body {
   position: fixed;
   background: url("../images/float_bg.png") center no-repeat;
   width: 202px;
-  height: 489px;
+  height: 516px;
   -moz-background-size: contain;
   -o-background-size: contain;
   -webkit-background-size: contain;
@@ -341,44 +341,43 @@ body {
 .floatr .qr {
   background: url("../images/qr.png") center no-repeat;
   width: 149px;
-  height: 149px;
+  height: 177px;
   -moz-background-size: contain;
   -o-background-size: contain;
   -webkit-background-size: contain;
   background-size: contain;
-  margin-top: 14px;
+  margin-top: 13px;
   margin-left: 28px;
-  margin-bottom: 18px;
+  margin-bottom: 13px;
 }
 .floatr .btn-float1 {
-  margin-top: 6px;
+  margin-top: 13px;
   margin-left: 28px;
 }
 .floatr .btn-float2 {
-  margin-top: 6px;
+  margin-top: 13px;
   margin-left: 28px;
 }
 .floatr .btn-float3 {
-  margin-top: 6px;
+  margin-top: 13px;
   margin-left: 28px;
 }
 .floatr .btn-float4 {
-  margin-top: 6px;
+  margin-top: 13px;
   margin-left: 28px;
 }
 
 .mouse {
   background: url("../images/mouse.png") center no-repeat;
-  width: 194px;
-  height: 221px;
+  width: 155.2px;
+  height: 176.8px;
   -moz-background-size: contain;
   -o-background-size: contain;
   -webkit-background-size: contain;
   background-size: contain;
   position: fixed;
-  top: 800px;
   left: 50%;
-  margin-left: -97px;
+  margin-left: -72px;
   z-index: 60;
   -webkit-animation-name: mouse;
   animation-name: mouse;
@@ -436,16 +435,16 @@ body {
 /**page0* */
 .dlbtn {
   position: absolute;
-  width: 850px;
+  width: 1200px;
   height: 121px;
   left: 50%;
-  margin-left: -425px;
+  margin-left: -600px;
 }
 
 .dl1 {
   background: url("../images/dl1.png") center no-repeat;
-  width: 410px;
-  height: 121px;
+  width: 381.3px;
+  height: 112.53px;
   -moz-background-size: contain;
   -o-background-size: contain;
   -webkit-background-size: contain;
@@ -456,8 +455,8 @@ body {
 
 .dl2 {
   background: url("../images/dl2.png") center no-repeat;
-  width: 410px;
-  height: 121px;
+  width: 381.3px;
+  height: 112.53px;
   -moz-background-size: contain;
   -o-background-size: contain;
   -webkit-background-size: contain;
@@ -466,8 +465,20 @@ body {
   float: left;
 }
 
-.dl1 {
-  margin-right: 30px;
+.dl3 {
+  background: url("../images/dl3.png") center no-repeat;
+  width: 381.3px;
+  height: 112.53px;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  -webkit-background-size: contain;
+  background-size: contain;
+  position: relative;
+  float: left;
+}
+
+.dl1, .dl2 {
+  margin-right: 27px;
 }
 
 /**page1* */
@@ -862,7 +873,7 @@ body {
 
 @media (min-width: 1367px) {
   .mouse {
-    top: 800px;
+    top: calc(100% - 150px);
   }
 }
 @media (max-width: 1367px) {
@@ -883,11 +894,19 @@ body {
   }
 }
 
-#section0 {
-  background: url("../images/page0.jpg") center no-repeat;
+@media (min-width: 1367px) {
+  #section0 {
+    background: url("../images/page0.jpg") top center no-repeat;
+  }
+}
+@media (max-width: 1367px) {
+  #section0 {
+    background: url("../images/page0.jpg") top center no-repeat;
+  }
 }
 @media (orientation: portrait) {
   #section0 {
+    background: url("../images/page0.jpg") center no-repeat;
     -moz-background-size: auto 100%;
     -o-background-size: auto 100%;
     -webkit-background-size: auto 100%;
@@ -896,11 +915,19 @@ body {
   }
 }
 
-#section1 {
-  background: url("../images/page1.jpg") center no-repeat;
+@media (min-width: 1367px) {
+  #section1 {
+    background: url("../images/page1.jpg") top center no-repeat;
+  }
+}
+@media (max-width: 1367px) {
+  #section1 {
+    background: url("../images/page1.jpg") top center no-repeat;
+  }
 }
 @media (orientation: portrait) {
   #section1 {
+    background: url("../images/page1.jpg") center no-repeat;
     -moz-background-size: auto 100%;
     -o-background-size: auto 100%;
     -webkit-background-size: auto 100%;
@@ -909,11 +936,19 @@ body {
   }
 }
 
-#section2 {
-  background: url("../images/page2.jpg") center no-repeat;
+@media (min-width: 1367px) {
+  #section2 {
+    background: url("../images/page2.jpg") top center no-repeat;
+  }
+}
+@media (max-width: 1367px) {
+  #section2 {
+    background: url("../images/page2.jpg") top center no-repeat;
+  }
 }
 @media (orientation: portrait) {
   #section2 {
+    background: url("../images/page2.jpg") center no-repeat;
     -moz-background-size: auto 100%;
     -o-background-size: auto 100%;
     -webkit-background-size: auto 100%;
@@ -922,11 +957,19 @@ body {
   }
 }
 
-#section3 {
-  background: url("../images/page3.jpg") center no-repeat;
+@media (min-width: 1367px) {
+  #section3 {
+    background: url("../images/page3.jpg") top center no-repeat;
+  }
+}
+@media (max-width: 1367px) {
+  #section3 {
+    background: url("../images/page3.jpg") top center no-repeat;
+  }
 }
 @media (orientation: portrait) {
   #section3 {
+    background: url("../images/page3.jpg") center no-repeat;
     -moz-background-size: auto 100%;
     -o-background-size: auto 100%;
     -webkit-background-size: auto 100%;
@@ -938,7 +981,7 @@ body {
 /**page0* */
 @media (min-width: 1367px) {
   .dlbtn {
-    margin-top: 670px;
+    margin-top: 680px;
   }
 }
 @media (max-width: 1367px) {
@@ -1107,18 +1150,23 @@ body {
   .feture-swiper {
     width: 100%;
   }
-  .feture-swiper img {
-    width: 80%;
-  }
 }
 @media (min-width: 1367px) {
   .feture-swiper .swiper-wrapper {
-    margin-top: 70px;
+    margin-top: 30px;
+  }
+  .feture-swiper .swiper-wrapper img {
+    width: 95%;
+    height: auto;
   }
 }
 @media (max-width: 1367px) {
   .feture-swiper .swiper-wrapper {
-    margin-top: 70px;
+    bottom: 0;
+  }
+  .feture-swiper .swiper-wrapper img {
+    width: 90%;
+    height: auto;
   }
 }
 @media (orientation: portrait) {
